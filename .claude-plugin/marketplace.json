@@ -1,0 +1,15 @@
+{
+  "name": "perfloop",
+  "description": "Perfloop for Claude Code and Codex: always-on performance engineering for teams where performance is the product.",
+  "owner": {
+    "name": "Perfloop",
+    "email": "hello@perfloop.ai"
+  },
+  "plugins": [
+    {
+      "name": "perfloop",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

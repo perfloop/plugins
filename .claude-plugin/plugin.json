@@ -1,0 +1,26 @@
+{
+  "name": "perfloop",
+  "displayName": "Perfloop",
+  "version": "1.0.0",
+  "description": "Perfloop does always-on performance engineering on your code. A performance change comes back only with a measurement against the base. Your agent can submit a branch and steer the work.",
+  "author": {
+    "name": "Perfloop",
+    "email": "hello@perfloop.ai",
+    "url": "https://perfloop.ai"
+  },
+  "homepage": "https://perfloop.ai/docs/work/mcp",
+  "repository": "https://github.com/perfloop/plugins",
+  "license": "MIT",
+  "keywords": [
+    "performance",
+    "performance-engineering",
+    "latency",
+    "optimization",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://perfloop.ai/docs/work/mcp",
+  "supportUrl": "https://perfloop.ai/contact",
+  "privacyPolicyUrl": "https://perfloop.ai/privacy",
+  "termsOfServiceUrl": "https://perfloop.ai/terms"
+}

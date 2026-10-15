@@ -1,0 +1,59 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "perfloop",
+  "version": "1.0.0",
+  "description": "Perfloop does always-on performance engineering on your code. A performance change comes back only with a measurement against the base. Your agent can submit a branch and steer the work.",
+  "author": {
+    "name": "Perfloop",
+    "email": "hello@perfloop.ai",
+    "url": "https://perfloop.ai"
+  },
+  "homepage": "https://perfloop.ai/docs/work/mcp",
+  "repository": "https://github.com/perfloop/plugins",
+  "license": "MIT",
+  "keywords": [
+    "performance",
+    "performance-engineering",
+    "latency",
+    "optimization",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Perfloop",
+        "shortDescription": "The Performance Machine.",
+        "longDescription": "Perfloop does always-on performance engineering on your system. It runs performance experiments on your code and only brings back a performance change with a measurement against the base. Your engineers set the goals.\n\nIt also finds correctness bugs. Each correctness claim proves one stated assertion about the code with the change. When a change repairs a defect, the proof also shows the assertion failing before the change, for example a test that fails first and passes with it.\n\nWith Perfloop connected, your agent can submit a branch or a pull request, and Perfloop lists ranked hypotheses on the changed code, each with a size estimate. Read a Case's evidence and measurements. Start or stop work on it, and steer it with feedback. Decide what waits in the Inbox, such as a pull request that is ready to open.\n\nPerfloop opens pull requests. It cannot approve or merge one, and it cannot deploy. Every write is recorded under your account.\n\nYou need a Perfloop account with a connected GitHub repo. You sign in with that account, and your role in the workspace decides what the agent can read or change. Tools that start work say so, because that work is paid from the workspace's Usage balance.",
+        "developerName": "Perfloop",
+        "category": "Developer Tools",
+        "capabilities": [
+          "List Cases and read the evidence and code behind each one",
+          "Start or stop work on a Case",
+          "File feedback that steers the work",
+          "Read the model Perfloop keeps of your system",
+          "Create an Initiative and steer its research",
+          "Submit a branch or pull request and read ranked performance and correctness hypotheses on it",
+          "Decide what waits in the Inbox"
+        ],
+        "websiteURL": "https://perfloop.ai",
+        "supportURL": "https://perfloop.ai/contact",
+        "privacyPolicyURL": "https://perfloop.ai/privacy",
+        "termsOfServiceURL": "https://perfloop.ai/terms",
+        "defaultPrompt": [
+          "Which Perfloop Cases on my repo are verified, and what did each one measure?",
+          "What performance hypotheses did Perfloop find on my open pull request?",
+          "What is waiting for my decision in the Perfloop Inbox?"
+        ],
+        "brandColor": "#3B82AF",
+        "brandColorDark": "#3B82AF",
+        "composerIcon": "./assets/icon.png",
+        "composerIconDark": "./assets/icon-dark.png",
+        "logo": "./assets/logo.png",
+        "logoDark": "./assets/logo-dark.png"
+      },
+      "publication": {
+        "release_notes": "Initial release: the Perfloop MCP server, with tools to submit a branch or pull request, read Cases and their evidence, steer and start work, and decide Inbox items."
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "perfloop",
-  "description": "Perfloop for Claude Code and Codex: always-on performance engineering for teams where performance is the product.",
+  "description": "Perfloop for Claude Code and Codex: performance improvements, bug fixes and security repairs in your code, each with proof.",
   "owner": {
     "name": "Perfloop",
     "email": "hello@perfloop.ai"

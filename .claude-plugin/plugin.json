@@ -1,8 +1,8 @@
 {
   "name": "perfloop",
   "displayName": "Perfloop",
-  "version": "1.0.0",
-  "description": "Perfloop does always-on performance engineering on your code. A performance change comes back only with a measurement against the base. Your agent can submit a branch and steer the work.",
+  "version": "1.1.0",
+  "description": "Perfloop finds performance problems, bugs and security flaws in your code. Each change comes with proof: a measurement or a tested assertion. Your coding agent can steer it.",
   "author": {
     "name": "Perfloop",
     "email": "hello@perfloop.ai",

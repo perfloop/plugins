@@ -11,7 +11,9 @@ their Perfloop account through OAuth.
 
 The user needs a Perfloop account in a workspace with a connected GitHub
 repo. If they have none, they get an account at https://perfloop.ai, and an
-Admin connects GitHub and selects repos in Setup in the Perfloop app.
+Admin connects GitHub and selects repos in Setup in the Perfloop app. After
+sign-in, an Admin's agent can also select repos with the `setup` and
+`setRepositories` tools.
 
 ## Add the server
 
